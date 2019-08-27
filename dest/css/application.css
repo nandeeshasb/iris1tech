@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding:0;
+}
+.logo {
+	background-image: url("../img/techademy.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 1px;
+	color: transparent;
+	width: 165px;
+	margin: 10px auto;
+	display: block;
+	height: 39px;
+}
+.main-login {
+	background-color: #000000;
+	padding: 40px 20px;
+}
+.login1 {
+	color: #000;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.container-form1 {
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.container-form1 input {
+	width: 100%;
+	border-radius: 50px;
+	border:1px solid #000;
+	height: 50px;
+	text-align: center;
+	color: #000;
+}
+.container-form1 button {
+	width: 100%;
+	border-radius: 50px;
+	border:1px solid blue;
+	height: 50px;
+	text-align: center;
+	margin-bottom: 15px;
+	
+}
+.btn-right{
+	float: right;
+	margin-top: -36px;
+}
+
+.profile-img1 {
+	border-radius: 50px;
+	width: 30px;
+	height: 30px;
+	margin: 0 4px;
+
+}
+.profile-img2 {
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	margin: 0 4px;
+}
+.profile-img3 {
+	border-radius: 50px;
+	width: 55px;
+	height: 55px;
+	margin: 0 4px;
+}
+.profile-img4 {
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	margin: 0 4px;
+}
+.profile-img5 {
+	border-radius: 50px;
+	width: 30px;
+	height: 30px;
+	margin: 0 4px;
+}
+.container-img {
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 3px 3px #f5f2f2;
+}
+
+
+@media screen and (min-device-width: 768px) {
+	.logo {
+		float: left;
+		margin-top: -10px;
+	}
+	.main-login {
+		padding: 80px 20px;
+		background-color: #000000;
+	}
+	.container-form1 input {
+		width: 100%;
+		border-radius: 50px;
+		border:1px solid #000;
+		height: 50px;
+		text-align: center;
+		color: #000;
+	}
+	.container-form1 button {
+		width: 100%;
+		border-radius: 50px;
+		border:1px solid blue;
+		height: 50px;
+		text-align: center;
+		
+	}
+	.container-form1 {
+		background-color: #ffffff;
+		border-radius: 10px;
+		width: 300px;
+
+	}
+	.container-card h5, p {
+		padding: 0 10px;
+	}
+	.container-img {
+		background-color: #fff;
+		border-radius: 2px;
+		box-shadow: 3px 3px #f5f2f2;
+	}
+}
+
+
+
+@media screen and (min-device-width: 1024px) {
+	.container-form1 {
+		background-color: #ffffff;
+		border-radius: 10px;
+		width: 350px;
+		margin-top: -75px;
+		margin-left: 630px;
+		box-shadow: 3px 3px #f5f2f2;
+	}
+	.container-card {
+		
+		margin-left: 10px;
+	}
+	
+
+}
+
